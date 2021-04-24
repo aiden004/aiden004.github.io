@@ -5,7 +5,16 @@
 body, html {
   height: 100%;
   margin: 0;
-  font-family: "Comic Sans MS", "Comic Sans", cursive;
+  font-family: "arial", cursive;
+}
+
+a:link, a:visited {
+  color: white;
+  text-decoration: underline;
+}
+
+a:link:active, a:visited:active {
+  color: red;
 }
 
 * {
@@ -19,12 +28,13 @@ body, html {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  }
+  
+}
+
   .bg-text {
   background-color: rgb(0,0,0); 
   background-color: rgba(0,0,0, 0.4); 
   color: white;
-  font-weight: bold;
   border: 3px solid black;
   position: absolute;
   top: 50%;
@@ -36,17 +46,65 @@ body, html {
   text-align: center;
 }
 
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
 
 </style>
 </head>
 <body>
-<div class="bg-image"></div>
-<div class="bg-text">
-<p> Hi i'm aiden,</p><p>
-<p style="color:red;">ik leef in stupid era,</p>
-<p>it's okay</p>
-</p>
+ <div class="bg-image">
 </div>
+<div class="bg-text">
+ <h1>Hello! My name is Aiden!</h1>
+ 
+ <img src="https://www.jame-world.com/media/image/2018-04/8461.jpg"  alt="indigo la End" height=135 width=240> </img>
+ 
+ <p>-minor&nbsp;&nbsp;&nbsp;-he/him&nbsp;&nbsp;&nbsp;-dutch</p>
+
+<table>
+ <tr>
+  <th>My interests&nbsp;&nbsp;</th>
+  <th>&nbsp;&nbsp;My socials</th>
+  <th></th>
+  
+ </tr>
+ 
+ <tr>
+  <td>-coldplay</td>
+  <td><a href="https://www.last.fm/user/aidentje"    target="_blank">-Last.fm</a>
+ </tr>
+ 
+
+ <tr>
+  <td>-maria</td>
+  <td>discord: aiden#6201</td>
+ </tr>
+ 
+ <tr>
+  <td>-persona</td>
+ </tr>
+ 
+ <tr>
+  <td>-indigo la end</td>
+ </tr>
+ 
+ <tr>
+  <td>and more</td>
+  
+  
+</table>
+
+
+
+
 </body>
 </html>
-
