@@ -2,12 +2,19 @@
 <html>
 <head>
 <style>
+
 body, html {
   height: 100%;
   margin: 0;
   font-family: "arial", cursive;
+  background-color: grey;
 }
 
+@media screen and (max-width: 1280px) and (max-height: 720px) {
+   html {
+      transform: scale(1.25);
+   }
+}
 a:link, a:visited {
   color: white;
   text-decoration: underline;
@@ -18,17 +25,8 @@ a:link:active, a:visited:active {
 }
 
 * {
-  box-sizing: border-box;
-}
 
-.bg-image {
-  background-image: url("https://twinfinite.net/wp-content/uploads/2019/11/Persona-5-Scramble-13-1.jpg");				      filter: blur(8px);
-  -webkit-filter: blur(5px);
-  height: 100%; 
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  
+  box-sizing: border-box;
 }
 
   .bg-text {
